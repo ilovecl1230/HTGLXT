@@ -20,7 +20,7 @@ export default{
       console.log(res);
     })
     */
-   this.$request.get('/login',{name:'jack'},{mock:true,loading:true}).then(()=>{
+   this.$request.get('/login',{name:'jack'},{mock:true,loading:true}).then((res)=>{
      console.log(res);
    })
   },
